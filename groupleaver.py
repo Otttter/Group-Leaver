@@ -4,13 +4,14 @@ import asyncio
 client = discord.Client()
 token = "" # Put your token here
 prefix = "#"
+command = "gl"
 leaveMessage = "Bye!"
 
 @client.event
 async def on_message(message):
     if message.author == client.user:
         cmd = str(message.content).split(' ')
-        if cmd[0] == prefix + "gl":
+        if cmd[0] == prefix + command:
             await message.delete()
             count = 0
             for channel in client.private_channels:
