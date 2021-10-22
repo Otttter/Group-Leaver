@@ -1,6 +1,10 @@
 import discord
 import asyncio
 
+#
+# Any issues feel free to message my discord Otter#7070
+#
+
 client = discord.Client()
 token = "" # Put your token here
 prefix = "#"
