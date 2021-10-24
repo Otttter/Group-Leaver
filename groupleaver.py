@@ -4,12 +4,17 @@ import asyncio
 #
 # Any issues feel free to message my discord Otter#7070
 # or join my server https://discord.gg/G5ACnxn68z
+#
 
 client = discord.Client()
 token = "" # Put your token here
 prefix = "#"
 command = "gl"
 leaveMessage = "Bye!"
+
+@client.event
+async def on_ready():
+    print("Token Verification Successful! Type " + prefix + "" + command + " in to any chat and the script will execute!") # Tell the user the script is actually running.
 
 @client.event
 async def on_message(message):
@@ -24,8 +29,9 @@ async def on_message(message):
                         count = count + 1
                         await channel.send(leaveMessage)
                         await channel.leave()
+                        print("Left a group: " + str(channel.id)) # Print group ID in console.
             await message.channel.send("``You left a total of [" + str(count) + "] group chats!``")
-            await client.logout()
-            exit(1)
+            await client.close() # Updated because they changed it for some reason
 
 client.run(token, bot=False)
+input("Press enter to exit") # Allow user to actually fucking read the data before the script closes.
