@@ -6,3 +6,5 @@ A discord tool, to leave groups automatically!
 3. put token in token variable ( its commented)
 4. run script
 5. enter the prefix and command you set in the script to run the command. ( IF YOU HAVE OVER 100 JUST BE AWARE YOU MAY HAVE TO RUN IT MORE THAN ONCE.)
+
+Special shoutout to Holder#6681 for meme.png
