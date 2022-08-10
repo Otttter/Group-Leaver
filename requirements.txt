@@ -1,2 +1,3 @@
-discord
+discord.py
+discord.ext
 asyncio
