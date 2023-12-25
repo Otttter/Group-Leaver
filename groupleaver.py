@@ -2,7 +2,7 @@ import discord
 import asyncio
 
 #
-# Any issues feel free to message my discord Otter#7070
+# Any issues feel free to message my discord Otter7070
 #
 
 client = discord.Client()
@@ -31,6 +31,8 @@ async def on_message(message):
                         print("Left a group: " + str(channel.id)) # Print group ID in console.
             await message.channel.send("``You left a total of [" + str(count) + "] group chats!``")
             await client.close() # Updated because they changed it for some reason
+
+# If you are getting an improper token error or 401 code, make sure you have no greater than version 1.7.3 of discord.py installed!
 
 client.run(token, bot=False)
 input("Press enter to exit") # Allow user to actually fucking read the data before the script closes.
