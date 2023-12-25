@@ -12,3 +12,6 @@ Special shoutout to Holder#6681 for meme.png
 (Recently a lot of people have been messaging me saying its not working due to a incorrectly configured python environment. I released a bundled exe version in the releases section that you can download if you are having trouble, otherwise I recommend using the script because im pretty sure it runs better.)
 
 I've been having alot of people saying it doesnt work anymore, every time someone says it we find out their python install is borked in one way or another. if you run the `pip install -r requirements.txt` like your supposed too. on python 3+ with discord.py and asycio installed this script still functions as of 8/10/22
+
+12/24/2023
+I will be revamping the script to cooperate with the new discord.py soon, in the meantime you can use the release.zip in the releases tab to use just the tool!
