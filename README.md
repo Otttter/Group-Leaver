@@ -9,3 +9,7 @@ A discord tool, to leave groups automatically! As of 12/24/2023 this has been up
 
 
 This might work, it might not. It came out 5 years ago and I am no longer updating it the last offical update was 2023. I am removing the related executable release to compensate for smooth brains wiping their discords.
+
+
+7-1-2024
+I installed windows on a pc, downloaded python, ran `pip install -r requirements.txt` in the folder and then executed the script with no issues. This does still work
